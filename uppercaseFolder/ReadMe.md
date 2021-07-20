@@ -6,13 +6,22 @@
 
 Step 1: create a new branch and do following command
 
+* For Folder:
+
 ```shell
 git mv CaseFolder tempFolder
 git mv tempFolder caseFolder
 ```
 
+* For File:
 
-Step 2: check all the folder and files are changed as `Renamed` status in git.
+```shell
+git mv CaseFile.xxx tempFile.xxx
+git mv tempFile.xxx caseFile.xxx
+```
+
+
+Step 2: check all the folder and files are changed as <strong>`Renamed`</strong> status in git.
 
 
 Step 3: Create the new PR and merge to the detination branch, like master
